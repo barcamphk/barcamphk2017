@@ -1,13 +1,15 @@
 # About
-This is the repo of website for the biggest unconference in Hong Kong...
+10 year anniversary of BarcampHK ｡:.ﾟヽ(*´∀`)ﾉﾟ.:｡
+
 ```
 +------------------------------------------+
-| BarCamp Hong Kong 2016                   |
-| Saturday, Dec 10, 2016                   |
+| BarCamp Hong Kong 2017                   |
+| Saturday, Dec 16, 2017                   |
 |                                          |
-| 09:30 AM to 06:00 PM                     |
+| 09:00 AM to 06:00 PM                     |
 |                                          |
-| 3/F Innovation Tower, PolyU              |
+| 15/F Hong Kong Club Building,            |
+| 3A Charter Road, Central                 |
 |                                          |
 +------------------------------------------+
 ```
