@@ -11,13 +11,15 @@
    Main Style
    ========================================================================== */
 html {
-  min-height: 100%; }
+  min-height: 100%;
+  height: 100%; }
 
 body {
   font-size: 16px;
   line-height: 1.4;
   color: #333;
-  min-height: 100%; }
+  min-height: 100%;
+  height: 100%; }
 
 .jumbotron {
   background-color: transparent;
@@ -33,22 +35,6 @@ body {
   color: #fff !important; }
   .btn-alternative:hover, .btn-alternative:focus, .btn-alternative:active {
     background-color: #666; }
-
-.landing {
-  background: url("/images/landing-bg@md.png") center no-repeat;
-  background-size: cover; }
-  .landing p {
-    font-size: 1.4em;
-    margin-bottom: 0.25em;
-    font-weight: 300; }
-  .landing .event-info {
-    color: #D1272E;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: -webkit-linear-gradient(-20deg, #f4bc13 0%, #db2215 39%, #db8c15 66%, #db2c15 74%, #db2c15 100%);
-    text-shadow: 1px 1px 2px rgba(222, 29, 29, 0.14); }
-  .landing .call-action {
-    margin-top: 1em; }
 
 .btn-register {
   color: #FFCC03;
@@ -83,39 +69,49 @@ a:focus {
 a:hover {
   color: #EC9232; }
 
+.masthead {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 200px 0;
+  text-align: center;
+  color: #333;
+  background-color: transparent;
+  background-size: cover; }
+  .masthead .intro-body {
+    display: table-cell;
+    vertical-align: middle; }
+    .masthead .intro-body .brand-heading {
+      font-size: 50px; }
+    .masthead .intro-body .intro-text {
+      font-size: 18px; }
+  @media (min-width: 768px) {
+    .masthead {
+      height: 100%;
+      padding: 0; }
+      .masthead .intro-body .brand-heading {
+        font-size: 100px; }
+      .masthead .intro-body .intro-text {
+        font-size: 22px; } }
+
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  transition: background 0.3s ease-in-out;
+  color: #FFCC03;
+  border: 2px solid #FFCC03;
+  border-radius: 100% !important;
+  background: transparent; }
+  .btn-circle:focus, .btn-circle:hover {
+    color: #FFCC03;
+    outline: none;
+    background: rgba(255, 204, 3, 0.1); }
+
 main > section .container {
   padding: 2em 0; }
-
-.navbar-brand-logo {
-  height: 32px; }
-
-.brand-logo {
-  width: auto;
-  max-width: 500px; }
-
-.tagline {
-  text-align: center; }
-  .tagline .hint {
-    color: #111;
-    font-size: 1.1rem; }
-    .tagline .hint i {
-      text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25); }
-  .tagline .lead {
-    color: #555; }
-
-.elegant {
-  font-family: Georgia,"Times New Roman",Times,serif;
-  letter-spacing: .01rem;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 1.5;
-  text-decoration: none;
-  background-image: linear-gradient(to bottom, #fff 50%, #666666 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 22px;
-  color: #333333;
-  text-shadow: 1px 0 #fff, 0px 1px #fff, -1px 0 #fff, 0 -1px #fff; }
 
 .speakers {
   background: url(/images/speaker-bg.jpg) center no-repeat;
@@ -137,7 +133,7 @@ main > section .container {
   padding: 0.75rem; }
 
 .venue {
-  background: url(/images/venue-bg@md.jpg) top center no-repeat;
+  background: #999 top center no-repeat;
   background-size: cover;
   min-height: 500px; }
   .venue .venue-box {
@@ -149,13 +145,13 @@ main > section .container {
 
 .sponsors {
   background-color: #f7f7f7; }
-  .sponsors .card {
+  .sponsors .box-card {
     background: #fff;
     box-shadow: 1px 1px rgba(17, 17, 17, 0.1);
     padding: 0.8em 1em 1em;
     margin-bottom: 2em;
     border: 1px solid #f7f7f7; }
-    .sponsors .card.caller {
+    .sponsors .box-card.caller {
       background: gold;
       box-shadow: none;
       border: none;
@@ -198,25 +194,3 @@ footer {
     font-size: 0.8em;
     text-align: right;
     margin-top: 2em; }
-
-@media (min-width: 1200px) {
-  .venue {
-    background-image: url(/images/venue-bg@lg.jpg); } }
-
-@media (max-width: 991px) {
-  .navbar-toggleable-md .navbar-nav {
-    width: 100%; }
-  .navbar-fixed-top .container {
-    padding: 0; }
-  .landing {
-    margin-top: 50px; } }
-
-@media (max-width: 543px) {
-  main h2, main p {
-    padding: 0 0.25rem; }
-  table p {
-    padding: 0; } }
-
-@media (max-width: 460px) {
-  footer .container {
-    background-image: none; } }

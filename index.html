@@ -3,79 +3,88 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>BarCamp Hong Kong 2016 - The Biggest Unconference in Hong Kong</title>
-  <meta name="description" content="BarCamp Hong Kong 2016 website" />
+  <title>BarCamp Hong Kong 2017 - The Biggest Unconference in Hong Kong</title>
+  <meta name="description" content="BarCamp Hong Kong 2017 website" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
 
-  <meta property="og:title" content="BarCamp Hong Kong 2016" />
+  <meta property="og:title" content="BarCamp Hong Kong 2017" />
   <meta property="og:type" content="activity" />
   <meta property="og:url" content="http://barcamp.hk" />
   <meta property="og:image" content="http://barcamp.hk/share.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="640" />
-  <meta property="og:site_name" content="BarCamp Hong Kong 2016" />
-  <meta property="og:description" content="BarCamp Hong Kong 2016 - The Biggest Unconference in Hong Kong" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="400" />
+  <meta property="og:site_name" content="BarCamp Hong Kong 2017" />
+  <meta property="og:description" content="BarCamp Hong Kong 2017 - The Biggest Unconference in Hong Kong" />
   <meta name="author" content="Barcamp Hong Kong ">
 
   <!-- Bugs and Issues please go to https://www.facebook.com/BarCampHongKong  -->
 
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha256-mIfhv/h3MLq3WSiSlduuZO3saRNzzuf1LK8w3z3l3JY=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/style.css?v=2.1">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css?v=2.5">
 </head>
 
-<body>
+<body id="main-page">
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience or check our <a href="https://www.facebook.com/BarCampHongKong">facebook group</a>.</p>
   <![endif]-->
-  <div class="wrapper">
-    <header>
-      <nav class="navbar navbar-light bg-faded navbar-fixed-top">
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#main-page">
+        <img src="images/navbar-logo.png" alt="BarCamp HK" class="navbar-brand-logo" width="30" height="30" >
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="main-navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
+          <li class="nav-item"><a href="#venue" class="nav-link">Venue</a></li>
+          <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
+          <li class="nav-item"><a href="#register" class="btn btn-secondary">Register now</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro Header -->
+  <header class="masthead">
+      <div class="intro-body">
         <div class="container">
-          <button class="navbar-toggler hidden-lg-up  pull-right" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation"></button>
-          <div class="collapse navbar-toggleable-md " id="main-navbar">
-            <a class="navbar-brand" href="#"><img src="images/navbar-logo.png" alt="BarCamp HK" title="BarCamp HK" class="navbar-brand-logo"></a>
-            <ul class="nav navbar-nav pull-right">
-              <li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
-              <li class="nav-item"><a href="#venue" class="nav-link">Venue</a></li>
-              <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
-              <li class="nav-item"><a href="#register" class="btn btn-secondary">Register now</a></li>
-            </ul>
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading">Barcamp HK 2017</h1>
+              <p class="intro-text">10 year anniversary of BarcampHK, It is now!</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <section class="landing" id="landing">
-      <div class="container">
-        <div class="jumbotron jumbotron-fluid">
-          <h1 class="brand"><span class="sr-only">BarCamp HK 2016</span> <img class="brand-logo" src="images/logo2016@md.png" aria-hidden="true" srcset="images/logo2016@s.png 768w, images/logo2016.png 1600w"></h1>
-          <div class="event-info">
-            <p class="event-date">Saturday, Dec 10, 2016</p>
-            <p class="event-time">09:30 AM to 06:00 PM</p>
-            <p class="event-venue">3/F Innovation Tower, PolyU</p>
-          </div>
-          <p class="call-action"><a href="https://barcamphk2016.eventbrite.com/" class="btn btn-register btn-lg">Register</a></p>
         </div>
       </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section class="tagline">
+      <div class="container">
+        <!-- more details -->
+        <p>We started from a small core and 100+ truely open minded people to land the Un-conference paradigm in Hong Kong. We foster countless interest groups, which in turn make tech and knowledge sharing events vibrant in Hong Kong. We open the stage for all walks of digerati who eager to share instead of sell. We shall bring it on!</p>
+        <p>This year Barcamp HK will launch as a miniBarcamp in the HKUST Business School Central. Hey! get ready to go Central, go Hong Kong Club? Let's bring openness to one of the most prestigious place in Hong Kong!</p>
+      </div>
+
     </section>
-    <main>
-      <section class="tagline">
-        <div class="container">
-            <p class="hint">BarCamp Hong Kong is the biggest <i>unconference</i> in Hong Kong.</p>
-            <p class="lead">No fixed schedule until the actual event.</p>
-            <p class="lead">Any participle can host a session, in any format, on any topic.</p>
-            <p class="lead"><em class="elegant">You are the speaker and the audience.</em></p>
-            <p><a href="https://barcamphk2016.eventbrite.com/">Join us</a>, <em>Expect the Unexpected.</em></p>
-        </div>
-      </section>
-      <section class="speakers" id="speakers">
+    
+    <section class="speakers" id="speakers">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
             <h2>Want to give a <em>talk?</em></h2>
-              <p>1) Register (<a href="https://barcamphk2016.eventbrite.com/">registration page</a>)</p>
+              <p>1) Register</p>
               <p>2a) Share what you have in mind on the <a class="fb-event-share" href="http://www.facebook.com/BarCampHongKong">BarCamp Hong Kong Facebook Page</a>.
                 We’ll have priority scheduling for topics that have the most Likes.</p>
               <p>2b) Or, submit your topic to us on the day of the event. be sure to show up early!</p>
@@ -90,161 +99,134 @@
         </div>
       </section>
 
-      <section class="schedule" id="schedule">
-        <div class="container">
-          <h2>Schedule</h2>
-          <p><small>*Schedule is not finalized, please check our <a class="fb-event-share" href="http://www.facebook.com/BarCampHongKong">Facebook Page</a> or <a class="tw-event-share" href="http://twitter.com/barcamphk">Twitter</a> for latest update.</small></p>
-          <table class="table table-striped schedule-table">
-            <thead>
-              <tr>
-                <th class="schedule-time">Time</th>
-                <th class="schedule-session">Session</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>
-                  <time>9:30am</time>
-                  </td><td>
-                    <h4><a href="#">Registration</a></h4>
-                    <p class="description">Check-in, meet new and old friends, think a topic to speak...Arrive early if you plan to speak!</p>
-                  </td>
+    <!-- schedules -->
+    <section class="schedule" id="schedule">
+      <div class="container">
+        <h2>Schedule</h2>
+        <p><small>*Schedule is not finalized, please check our <a class="fb-event-share" href="http://www.facebook.com/BarCampHongKong">Facebook Page</a> or <a class="tw-event-share" href="http://twitter.com/barcamphk">Twitter</a> for latest update.</small></p>
+        <table class="table table-striped schedule-table">
+          <thead>
+            <tr>
+              <th class="schedule-time">Time</th>
+              <th class="schedule-session">Session</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <time>9:00am</time>
+                </td><td>
+                  <h4><a href="#">Registration</a></h4>
+                  <p class="description">Check-in, meet new and old friends, think a topic to speak...Arrive early if you plan to speak!</p>
+                </td>
 
-              </tr>
-              <tr>
-                <td><time>10:00am</time></td>
-                <td>
-                  <h4><a href="#">Kick-off Session</a></h4>
-                  <p class="description">We start the day with a short opening session + <b>introduce yourself with only 3 tag!</b></p>
-                 </td>
-              </tr>
-              <tr>
-                <td><time>10:30am</time></td>
-                <td>
-                  <h4><a href="#">Topic Wall Construction</a></h4>
-                  <p class="description">Speaker: time to submit your topic (room decided by Organizer)<br>
-                    Audience: time to pick your topic &amp; room (for first session)</p>
-                 </td>
-              </tr>
-              <tr>
-                <td><time>11:00am</time></td>
-                <td>
-                  <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-md-7 cell-content">
-                      <h4><a href="#">Sessions</a></h4>
-                      <p class="description">Various sessions (~1 hour) will take place in different rooms throughout the day (11:00am ~ 5:30pm). Follow <a href="http://www.gurteen.com/gurteen/gurteen.nsf/id/X004395C6/">The Law of Two Feet</a>.<br>
-                       Check out the "topic wall" (big board on the hallway) for session details.</p>
-                    </div>
-                    <div class="col-md-4 offset-md-1 post-it">
-                      <h4><a href="#">Lunch?</a></h4>
-                      <p>Pick your time: Self-service off-campus or in PolyU cafe</p>
-                    </div>
+            </tr>
+            <tr>
+              <td><time>10:00am</time></td>
+              <td>
+                <h4><a href="#">Kick-off Session</a></h4>
+                <p class="description">We start the day with a short opening session + <b>introduce yourself with only 3 tag!</b></p>
+                </td>
+            </tr>
+            <tr>
+              <td><time>10:30am</time></td>
+              <td>
+                <h4><a href="#">Topic Wall Construction</a></h4>
+                <p class="description">Speaker: time to submit your topic (room decided by Organizer)<br>
+                  Audience: time to pick your topic &amp; room (for first session)</p>
+                </td>
+            </tr>
+            <tr>
+              <td><time>11:00am</time></td>
+              <td>
+                <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-7 cell-content">
+                    <h4><a href="#">Sessions</a></h4>
+                    <p class="description">Various sessions (~1 hour) will take place in different rooms throughout the day (11:00am ~ 5:30pm). Follow <a href="http://www.gurteen.com/gurteen/gurteen.nsf/id/X004395C6/">The Law of Two Feet</a>.<br>
+                      Check out the "topic wall" (big board on the hallway) for session details.</p>
+                  </div>
+                  <div class="col-md-4 offset-md-1 post-it">
+                    <h4><a href="#">Lunch?</a></h4>
+                    <p>TBA</p>
                   </div>
                 </div>
-                </td>
-              </tr>
-              <tr>
-                <td><time>5:30pm</time></td>
-                <td>
-                  <h4><a href="#">Closing Session</a></h4>
-                  <p class="description">We will wrap up the day with some cool contests or a lucky draw.</p>
-                </td>
-              </tr>
-              <tr>
-                <td><time>6:00pm</time></td>
-                <td>
-                  <h4><a href="#">?</a></h4>
-                  <p class="description">(Please come back and check later)</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td><time>5:30pm</time></td>
+              <td>
+                <h4><a href="#">Closing Session</a></h4>
+                <p class="description">We will wrap up the day with some cool contests or a lucky draw.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><time>6:00pm</time></td>
+              <td>
+                <h4><a href="#">?</a></h4>
+                <p class="description">(Please come back and check later)</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Map -->
+    <section class="venue" id="venue">
+      <div class="container">
+        <div class="col-md-6 mx-auto venue-box">
+          <h2>Venue</h2>
+          <!-- Map & Map Links -->
+          <p>15/F Hong Kong Club Building, 3A Charter Road, Central  
+            <a href="#" target="_blank" class="map-marker" title="map" alt="map"><i class="fa fa-map-marker" aria-hidden="true"></i><i class="sr-only">Map</i></a>
+          </p>
+          <!-- gmap iframe -->
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="venue" id="venue">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 venue-box">
-              <h2>Venue</h2>
-              <p>3/F, Jockey Club Innovation Tower, The Hong Kong Polytechnic University <a href="https://goo.gl/maps/54GekFxa7TD2" target="_blank" class="map-marker" title="map" alt="map"><i class="fa fa-map-marker" aria-hidden="true"></i><i class="sr-only">Map</i></a></p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.129612334704!2d114.179148!3d22.305157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x41b4db8708c4f997!2zSm9ja2V5IENsdWIgSW5ub3ZhdGlvbiBUb3dlciDos73ppqzmnIPlibXmlrDmqJM!5e0!3m2!1sen!2shk!4v1480699142155" frameborder="0" style="border:0" allowfullscreen class="gmap"></iframe>
-            </div>
-          </div>
+    <section class="sponsors" id="sponsors">        
+      <div class="container">
+        <h2>Sponsors</h2>
+        <div class="box-card caller">
+          <i class="fa fa-lightbulb-o"></i> Wanna be a sponsor? Send <a href="mailto:admin@barcamp.hk?subject=I want to be a sponsor" title="Contact us here">an E-mail to us</a> or <a target="_blank" href="http://www.facebook.com/BarCampHongKong">FB Message to our page</a>
         </div>
-      </section>
-      <section class="sponsors" id="sponsors">
+      </div>
+    </section>
 
-        <div class="container">
-          <h2>Sponsors</h2>
-          <div class="card caller">
-            <i class="fa fa-lightbulb-o"></i> Wanna be a sponsor? Send <a href="mailto:admin@barcamp.hk?subject=I want to be a sponsor" title="Contact us here">an E-mail to us</a> or <a target="_blank" href="http://www.facebook.com/BarCampHongKong">FB Message to our page</a>
-          </div>
 
-          <div class="card">
-            <header>
-              <h3>Venue</h3>
-            </header>
-            <div class="card-content">
-              <a class="sponsor" href="http://www.sd.polyu.edu.hk/"><img class="sponsor-logo" src="images/sponsor-polyU-small.png" alt="polyU SD"></a>
-            </div>
-          </div>
+    <section class="organizers">
+      <div class="container">
+        <h2>Organizers</h2>
+        <ul>
+          <li>Bencrox @bencrox</li>
+          <li>Alan @28481k</li>
+          <li>Vinci @vincicat</li>
+        </ul>
+      </div>
+    </section>
 
-          <div class="card">
-            <header>
-              <h3>Beverage</h3>
-            </header>
-            <div class="card-content">
-              <a class="sponsor" href="http://youyoumob.com.hk/"><img class="sponsor-logo" src="images/sponsor-youyoumob.png" alt="YouYou Mobile Technology"></a>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-      <!-- <section class="register">
-        <div class="container">
-
-        </div>
-      </section> -->
-      <section class="organizers">
-        <div class="container">
-          <h2>Organizers</h2>
-          <ul>
-            <li>Bencrox @bencrox</li>
-            <li>Alan @28481k</li>
-            <li>Vinci @vincicat</li>
-          </ul>
-        </div>
-      </section>
-    </main>
+    <!-- Footer -->
     <footer>
-
-          <div class="container">
-            <p class="social-media-group pull-right">
+        <div class="container">
+            <p class="social-media-group float-right">
               <a class="btn btn-alternative fb-event-share" href="https://www.facebook.com/BarCampHongKong"><span class="hidden-xs">Facebook</span> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
               <a class="btn btn-alternative tw-event-share" href="https://twitter.com/barcamphk"><span class="hidden-xs">Twitter</span> <i class="fa fa-twitter" aria-hidden="true"></i></a>
             </p>
             <br class="clear">
             <p class="copyleft">
               This site is licensed under the MIT License (unless otherwise stated).<br>
-              Background image by <a href="https://commons.wikimedia.org/wiki/File%3AJockey_Club_Innovation_Tower%2C_Hong_Kong_Polytechnic_University_-_20130808.jpg">By Sebastian Wallroth [<a href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>]</a>,<br>
-              <a href="https://commons.wikimedia.org/wiki/File%3A13-08-07-hongkong-by-RalfR-35.jpg">Ralf Roletschek [<a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>]</a>
-              Design adapt from Every Website 2015 + BarcampHK2015<br>
-              Coding by <a href="http://about.me/vinci">Vinci</a><br>
               Source code hosted on <a href="https://github.com/barcamphk/barcamphk2016">Github</a>
             </p>
           </div>
-
     </footer>
-  </div>
-
+  </main>
   <!-- script -->
   <!-- see JS section -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha256-j+XrvkQ4jJ99Hj0pJKPr6k0RCgxDDSTs3PBqLrX2EMc=" crossorigin="anonymous"></script>
-  <!-- <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script> -->
+
 
 
   <!-- <script src="js/index.js"></script> -->
