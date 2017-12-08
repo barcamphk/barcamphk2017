@@ -20,10 +20,45 @@
 
   <!-- Bugs and Issues please go to https://www.facebook.com/BarCampHongKong  -->
 
-
+  <link rel="stylesheet" href="fonts/stylesheet.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css?v=2.5">
+  <style>
+    /* fast hack here */
+    .brand-heading {
+      font-family: 'Helvetica Neue', 'Nimbus Sans L', sans-serif;
+      font-weight: 400;
+    }
+    .event-title {
+      display: block;
+      font-family: 'Tex Gyre Adventor', sans-serif;
+    }
+    .title-bar {
+      color: #FFCC03;
+      font-weight: 700;
+      text-transform: lowercase;
+    }
+    .title-camp {
+      color: #CC1517;
+      font-weight: 400;
+    }
+    .event-subtitle {
+      display: block;
+      font-size: 0.45em;
+      text-transform: uppercase;
+      font-weight: 200;
+    }
+    .bc-place {
+      color: #000;
+
+    }
+    .bc-year {
+      color: #000;
+    }
+    /* linear-gradient(to bottom, rgba(253,236,62,1) 0%,rgba(230,69,19,1) 100%)  */
+
+  </style>
 </head>
 
 <body id="main-page">
@@ -57,7 +92,9 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">Barcamp HK 2017</h1>
+              <h1 class="brand-heading">
+                <span class="event-title"><span class="title-bar">Bar</span><span class="title-camp">camp</span></span>
+                <span class="event-subtitle"><span class="bc-place">Hong Kong</span> <span class="bc-year">2017</span></span></h1>
               <p class="intro-text">10 year anniversary of BarcampHK, It is now!</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>

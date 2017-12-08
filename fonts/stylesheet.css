@@ -1,0 +1,37 @@
+/* for license, see https://www.fontsquirrel.com/fonts/TeX-Gyre-Adventor */
+
+@font-face {
+    font-family: 'Tex Gyre Adventor';
+    src: url('texgyreadventor-bold-webfont.eot');
+    src: url('texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tex Gyre Adventor';
+    src: url('texgyreadventor-regular-webfont.eot');
+    src: url('texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('texgyreadventor-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+/* for license, see https://www.fontsquirrel.com/fonts/nimbus-sans-l */
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('NimbusSanL-Bol-webfont.eot');
+    src: url('NimbusSanL-Bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NimbusSanL-Bol-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('NimbusSanL-Reg-webfont.eot');
+    src: url('NimbusSanL-Reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('NimbusSanL-Reg-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
