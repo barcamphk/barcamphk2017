@@ -1,0 +1,100 @@
+/* landing header hacking here */
+/* Event Name */
+.brand-heading {
+  font-family: 'Helvetica Neue', 'Nimbus Sans L', sans-serif;
+  font-weight: 400;
+}
+.event-title {
+  display: block;
+  font-family: 'Tex Gyre Adventor', sans-serif;
+}
+
+.title-bar {
+  color: #FFCC03;
+  font-weight: 700;
+  text-transform: lowercase;
+}
+.title-camp {
+  color: #CC1517;
+  font-weight: 400;
+}
+.event-subtitle {
+  display: block;
+  font-size: 0.45em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.bc-place {
+  color: #000;
+}
+
+.bc-year {
+  color: #000;
+}
+/* overlay: linear-gradient(to bottom, rgba(253,236,62,1) 0%,rgba(230,69,19,1) 100%)  */
+.bc-place:after {
+  content: "";
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  background: url(../images/hk.png) center no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+  margin-top: -0.2em;
+  margin-left: 0.2em;
+  margin-right: -0.15em;
+}
+
+/* header bg section */
+.masthead {
+  background-image: url(../images/bg-skyline@1x.jpg);
+  background-position: center top;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.masthead:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-image: linear-gradient(135deg, rgba(255,255,255,0.45) 0%,rgba(255,255,255,0.15) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73ffffff', endColorstr='#26ffffff',GradientType=1 ); 
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+/* chain reaction */
+.intro-body {
+  position: relative;
+  z-index: 5;
+  color: #000; 
+}
+.intro-text {
+  margin-top: 0.5em;
+  color: #011627; /* 231F20, 071E22, 0C1821, 202A25, 092327, 2D2D2A, 353831 */
+  font-weight: 700;
+}
+
+#main-nav {
+  background-color: rgba(255,255,255,0.5);
+}
+@media
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 1920px), 
+  (min-resolution: 192dpi) and (min-width: 1920px) {
+  .masthead {
+    background-image: url(../images/bg-skyline@4x.jpg);
+  }
+}
+
+@media
+  (-webkit-min-device-pixel-ratio: 2) and (min-width: 800px), 
+  (min-width: 1280px) {
+  .masthead {
+    background-image: url(../images/bg-skyline@2x.jpg);
+  }
+}
