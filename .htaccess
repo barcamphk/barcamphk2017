@@ -1,4 +1,8 @@
 RedirectMatch 404 /\.git
+RedirectMatch 404 /package\.json
+RedirectMatch 404 /package-lock\.json
+RedirectMatch 404 /config\.rb
+RedirectMatch 404 /webpack\.config\.js
 
 <IfModule mod_rewrite.c>
   RewriteEngine on
