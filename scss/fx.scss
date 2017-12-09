@@ -1,0 +1,13 @@
+#venue {
+	position: relative;
+	overflow: hidden;
+}
+#venue-streetview {
+	position: absolute;
+	top: -80px;
+	width:100%;
+}
+#venue-info {
+	position: relative;
+	background: rgba(255,255,255,0.5);
+}

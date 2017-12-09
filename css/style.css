@@ -1,3 +1,16 @@
+#venue {
+  position: relative;
+  overflow: hidden; }
+
+#venue-streetview {
+  position: absolute;
+  top: -80px;
+  width: 100%; }
+
+#venue-info {
+  position: relative;
+  background: rgba(255, 255, 255, 0.5); }
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -37,22 +50,15 @@ body {
     background-color: #666; }
 
 .btn-register {
-  color: #FFCC03;
-  background-image: none;
-  background-color: transparent;
-  border-color: #FFCC03;
-  border-width: 1px; }
-  .btn-register:hover {
+  border-width: 1px;
+  background-image: none; }
+  .btn-register {
     color: #fff;
     background-color: #FFCC03;
     border-color: #FFCC03; }
-  .btn-register.focus, .btn-register:focus {
-    color: #fff;
-    background-color: #FFCC03;
-    border-color: #FFCC03; }
-  .btn-register.active, .btn-register:active, .open > .btn-register.dropdown-toggle {
-    color: #fff;
-    background-color: #FFCC03;
+  .btn-register:hover, .btn-register.focus, .btn-register:focus, .btn-register.active, .btn-register:active, .open > .btn-register.dropdown-toggle {
+    color: #FFCC03;
+    background-color: transparent;
     border-color: #FFCC03; }
   .btn-register.active.focus, .btn-register.active:focus, .btn-register.active:hover, .btn-register:active.focus, .btn-register:active:focus, .btn-register:active:hover, .open > .btn-register.dropdown-toggle.focus, .open > .btn-register.dropdown-toggle:focus, .open > .btn-register.dropdown-toggle:hover {
     color: #fff;
@@ -137,12 +143,6 @@ main > section .container {
   background: #999 top center no-repeat;
   background-size: cover;
   min-height: 500px; }
-  .venue .venue-box {
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 1em; }
-    .venue .venue-box .gmap {
-      width: 100%;
-      height: 30vh; }
 
 .sponsors {
   background-color: #f7f7f7; }
