@@ -199,7 +199,7 @@ main > section .container {
   .box-card {
     background: #fff;
     box-shadow: 1px 1px rgba(#111, 0.1);
-    padding: 0.8em 1em 1em;
+    padding: 0.8em 1em;
     margin-bottom: 2em;
     border: 1px solid #f7f7f7;
     &.caller {
@@ -211,24 +211,7 @@ main > section .container {
       padding-left: 10px;
     }
   }
-  h3 {
-    font-size: 1em;
-    margin-top: 0.2em;
-  }
-  .card-content {
-    padding: 1em 0;
-  }
-  .sponsor {
-    margin-right: 1.8em;
-    display:inline-block;
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-  .sponsor-logo {
-    max-width: 200px;
-    max-height: 100px;
-  }
+
   .fa-lightbulb-o {
     color: #fff; //#F9A600;
     font-weight: 400;
