@@ -1,5 +1,46 @@
 $primary-color: #CC1517;
 $secondary-color: #FFCC03;
+
+.call-for-action {
+	margin-top: 2em;
+	display: inline-block;
+}
+.action-caller {
+	color: rgb(104, 100, 100);
+	font-size: 1.8em;
+	font-weight: bold;
+	background-color: #FEFDFF;
+	padding: 0.5em 2em;
+	outline: 5px solid #FEFDFF;
+	border: 5px solid transparent;
+	transition: all ease-in-out 0.1s;
+	background-clip: padding-box;
+	.normal {
+		display: inline;
+	}
+	.hover {
+		display: none;
+	}
+	&:hover {
+		text-decoration: none;
+		color: rgb(43, 39, 27);
+		outline: 0px solid #FEFDFF;
+		
+	}
+	&:focus, &:active {
+		border: 5px solid #fff
+	}
+	&:hover, &:focus, &:active {
+		.normal {
+			display: none;
+		}
+		.hover {
+			display: inline;
+		}
+	}
+
+}
+
 #venue {
 	position: relative;
 	overflow: hidden;
