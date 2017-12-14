@@ -1,3 +1,7 @@
+em.remark {
+  text-decoration: underline;
+  font-weight: 500; }
+
 .call-for-action {
   margin-top: 2em;
   display: inline-block; }

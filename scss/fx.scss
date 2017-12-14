@@ -1,6 +1,10 @@
 $primary-color: #CC1517;
 $secondary-color: #FFCC03;
 
+em.remark {
+	text-decoration: underline;
+	font-weight: 500;
+}
 .call-for-action {
 	margin-top: 2em;
 	display: inline-block;
