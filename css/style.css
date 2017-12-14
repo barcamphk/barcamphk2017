@@ -27,6 +27,9 @@
   .action-caller:hover .hover, .action-caller:focus .hover, .action-caller:active .hover {
     display: inline; }
 
+.cf-link {
+  text-decoration: underline; }
+
 #venue {
   position: relative;
   overflow: hidden; }
